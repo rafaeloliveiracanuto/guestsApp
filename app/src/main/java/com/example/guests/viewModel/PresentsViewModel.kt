@@ -1,4 +1,4 @@
-package com.example.guests.ui.gallery
+package com.example.guests.viewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

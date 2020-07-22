@@ -1,9 +1,11 @@
-package com.example.guests
+package com.example.guests.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.ViewModelProvider
+import com.example.guests.viewModel.GuestFormViewModel
+import com.example.guests.R
 import kotlinx.android.synthetic.main.activity_guest_form.*
 
 class GuestFormActivity : AppCompatActivity(), View.OnClickListener {
