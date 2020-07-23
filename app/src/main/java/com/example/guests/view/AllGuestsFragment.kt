@@ -7,9 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.guests.R
 import com.example.guests.viewModel.AllGuestsViewModel
+import kotlinx.android.synthetic.main.fragment_all.*
 
 class AllGuestsFragment : Fragment() {
 
@@ -20,13 +23,17 @@ class AllGuestsFragment : Fragment() {
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
+
         allGuestsViewModel =
-                ViewModelProviders.of(this).get(AllGuestsViewModel::class.java)
+                ViewModelProvider(this).get(AllGuestsViewModel::class.java)
+
         val root = inflater.inflate(R.layout.fragment_all, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
-        allGuestsViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
+        val recycler = root.findViewById<RecyclerView>(R.id.recycler_all_guests)
+
+        recycler.layoutManager = LinearLayoutManager(context)
+
+
         return root
     }
 }
