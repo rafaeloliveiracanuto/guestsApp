@@ -14,13 +14,13 @@
   
 </br>
 <p align="center">
-  <img src="/screenshots/screenshot1.jpeg"  width="180" height="350">
-  <img src="/screenshots/screenshot2.jpeg"  width="180" height="350">
-  <img src="/screenshots/screenshot3.jpeg"  width="180" height="350">
+  <img src="/screenshots/screenshot1.jpeg"  width="180" height="380">
+  <img src="/screenshots/screenshot2.jpeg"  width="180" height="380">
+  <img src="/screenshots/screenshot3.jpeg"  width="180" height="380">
 </p>
 
 <p align="center">
-  <img src="/screenshots/screenshot4.jpeg"  width="180" height="350">
-  <img src="/screenshots/screenshot5.jpeg"  width="180" height="350">
-  <img src="/screenshots/screenshot6.jpeg"  width="180" height="350">
+  <img src="/screenshots/screenshot4.jpeg"  width="180" height="380">
+  <img src="/screenshots/screenshot5.jpeg"  width="180" height="380">
+  <img src="/screenshots/screenshot6.jpeg"  width="180" height="380">
 </p>
